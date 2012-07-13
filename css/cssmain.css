@@ -17,6 +17,8 @@ body  {
 } 
 .thrColLiqHdr #header { 
 	padding: 0 10px;
+	border:thick:#000;
+	border:2px;
 	background-image:url(../Main%20assets/grad2.jpg);
 	font:"Lucida Sans Unicode", "Lucida Grande", sans-serif/* this padding matches the left alignment of the elements in the divs that appear beneath it. If an image is used in the #header instead of text, you may want to remove the padding. */
 } 
@@ -63,10 +65,12 @@ margin:2px;
 .thrColLiqHdr #footer { 
 	padding: 0 10px; /* this padding matches the left alignment of the elements in the divs that appear above it. */
 	background:#DDDDDD;
+	border:thick:#000:2px;
 } 
 .thrColLiqHdr #footer p {
 	margin: 0; /* zeroing the margins of the first element in the footer will avoid the possibility of margin collapse - a space between divs */
-	padding: 10px 0; /* padding on this element will create space, just as the the margin would have, without the margin collapse issue */
+	padding: 10px 0;
+	border:#000:thick;/* padding on this element will create space, just as the the margin would have, without the margin collapse issue */
 }
 
 /* Miscellaneous classes for reuse */

@@ -22,7 +22,7 @@
 
 <div id="container">
  <div id="header" >
-    <h1 style="color:#FFF">NTU Computer Society<img style=" margin:auto;float:right; float:inherit; padding-top:0px" src="../Main assets/logo.png" width="84" height="58" alt="Logo" />&nbsp;</h1>
+    <h1 style="color:#FFF">NTU Computer Society<img style=" margin:auto;float:right; float:inherit; padding-top:0px" src="../Main assets/logo.png" width="98" height="72" alt="Logo" />&nbsp;</h1>
     <div id='cssmenu'>
   <ul>
     <li class='active '><a href='index.html'><span>Home</span></a></li>
@@ -39,24 +39,19 @@
 </div>
   <!-- end #header --></div>
  
-  <div id="sidebar2" style=" border:#000:thick:outset font-family: Calibri;">
-    <h3>How to join</h3>
-    <p><a href="http://www.trentstudents.org/comp/">See our Website Here </a></p>
-    <p><a href="http://www.trentstudents.org/societies">Go to here and click join a society login with your student details then click join computing.</a></p>
-    <p><strong>Why</strong></p>
-    <p>It's free and it only takes a monment you can get involved as little or as much as you like. </p>
-  <!-- end #sidebar2 --></div>
-  <div id="mainContent">
+
+  <div id="mainContent" style="margin:0px; margin-top:0px">
+    <h1 style="text-align:center; border:thick:#000:groove"><img src="../Main assets/1242081_mouse.jpg" width="423" height="283" alt="mouseimage" /></h1>
     <h1>Ntu Computer Society...</h1>
     <p>Welcome to the ntu computer society main website. We are a society that aims to make a network of students. Providing them with social activites and much much more. We are based in clifton at nottingham trent. </p>
     <h2>What we offer</h2>
     <p>We offer the complete package. This means social,revision and programming events. We offer our offical members all this so we can enhance your student life at ntu.</p>
-    <p style="text-align:center"><img src="http://www.sxc.hu/pic/m/a/am/ambrozjo/1362248_businessman_with_the_notebook_3.jpg" alt="Businessman with the notebook 3" /></p>
-  <!-- end #mainContent --></div>
-	<!-- This clearing element should immediately follow the #mainContent div in order to force the #container div to contain all child floats --><br class="clearfloat" />
-  <div id="footer">
-    <p style="font-family: Calibri; text-align:center">© NTU ComputerSociety, An offical society of the NTSU</p>
-   <p style="text-align:center"> <a href="www.trentstudents.org/comp"><img src="../Social media icons/Vector Social Media Icons/PNG/32px/aboutme.png" width="32" height="32" alt="NTSU LINK" /></a>   <a href="https://www.facebook.com/groups/NtuComputingSociety/"><img src="../Social media icons/Vector Social Media Icons/PNG/32px/facebook.png" width="32" height="32" alt="facebook" /></a><img src="../Social media icons/Vector Social Media Icons/PNG/32px/google-plus.png" width="32" height="32" alt="G+" /><img src="../Social media icons/Vector Social Media Icons/PNG/32px/paypal.png" width="32" height="32" alt="Donations" /><img src="../Social media icons/Vector Social Media Icons/PNG/32px/rss.png" width="32" height="32" alt="Rss" /><img src="../Social media icons/Vector Social Media Icons/PNG/32px/stackoverflow.png" width="32" height="32" alt="Stackoverflow" /><img src="../Social media icons/Vector Social Media Icons/PNG/32px/twitter-2.png" width="32" height="32" alt="Twiter" /></p>
+    <p style="text-align:center">&nbsp;</p>
+  <!-- end #mainContent --></div><br class="clearfloat" />
+  <div id="footer" style="background-image:url(../Main%20assets/redback.jpg); border:thick:#000">
+    <p style="font-family: Calibri; text-align:center">© NTU ComputerSociety, An offical society of the NTSU July 13, 2012   <br />
+    <a href="www.trentstudents.org/comp"><img src="../Social media icons/Vector Social Media Icons/PNG/32px/aboutme.png" width="32" height="32" alt="NTSU LINK" /></a>   <a href="https://www.facebook.com/groups/NtuComputingSociety/"><img src="../Social media icons/Vector Social Media Icons/PNG/32px/facebook.png" width="32" height="32" alt="facebook" /></a><img src="../Social media icons/Vector Social Media Icons/PNG/32px/google-plus.png" width="32" height="32" alt="G+" /><img src="../Social media icons/Vector Social Media Icons/PNG/32px/paypal.png" width="32" height="32" alt="Donations" /><img src="../Social media icons/Vector Social Media Icons/PNG/32px/rss.png" width="32" height="32" alt="Rss" /><img src="../Social media icons/Vector Social Media Icons/PNG/32px/stackoverflow.png" width="32" height="32" alt="Stackoverflow" /><img src="../Social media icons/Vector Social Media Icons/PNG/32px/twitter-2.png" width="32" height="32" alt="Twiter" /> <a href="&quot;mailto:ntucomputingsociety@gmail.com&quot;"><img src="../Social media icons/Vector Social Media Icons/PNG/32px/email.png" width="32" height="32" alt="Emailus" /></a><br />
+    <img src="../ntsu_logo.gif" width="198" height="65" alt="ntsulogo" />    </p>
     
   <!-- end #footer --></div>
 <!-- end #container --></div>
