@@ -22,7 +22,7 @@
 
 <div id="container">
  <div id="header" >
-    <h1 style="color:#FFF">Compsoc</h1>
+    <h1 style="color:#FFF">NTU Computer Society<img style=" margin:auto;float:right; float:inherit; padding-top:0px" src="../Main assets/logo.png" width="84" height="58" alt="Logo" />&nbsp;</h1>
     <div id='cssmenu'>
   <ul>
     <li class='active '><a href='index.html'><span>Home</span></a></li>
@@ -33,30 +33,31 @@
         </ul>
       </li>
     <li><a href='#'><span>Location</span></a></li>
+    <li><a href='#'><span>Our News</span></a></li>
     <li><a href='#'><span>Contact</span></a></li>
   </ul>
 </div>
   <!-- end #header --></div>
-  <div id="sidebar1">
-  <h3>Sidebar1 </h3>
-    <p>The background color on this div will only show for the length of the content. If you'd like a dividing line instead, place a border on the left side of the #mainContent div if the #mainContent div will always contain more content than the #sidebar1 div. </p>
-    <p>Donec eu mi sed turpis feugiat feugiat. Integer turpis arcu, pellentesque  eget, cursus et, fermentum ut, sapien. </p>
-  <!-- end #sidebar1 --></div>
-  <div id="sidebar2">
-    <h3>Sidebar2 </h3>
-    <p>The background color on this div will only show for the length of the content. If you'd like a dividing line instead, place a border on the right side of the #mainContent div if the #mainContent div will always contain more content than the #sidebar2 div. </p>
-    <p>Donec eu mi sed turpis feugiat feugiat. Integer turpis arcu, pellentesque  eget, cursus et, fermentum ut, sapien. </p>
+ 
+  <div id="sidebar2" style=" border:#000:thick:outset font-family: Calibri;">
+    <h3>How to join</h3>
+    <p><a href="http://www.trentstudents.org/comp/">See our Website Here </a></p>
+    <p><a href="http://www.trentstudents.org/societies">Go to here and click join a society login with your student details then click join computing.</a></p>
+    <p><strong>Why</strong></p>
+    <p>It's free and it only takes a monment you can get involved as little or as much as you like. </p>
   <!-- end #sidebar2 --></div>
   <div id="mainContent">
-    <h1> Main Content </h1>
-    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent aliquam,  justo convallis luctus rutrum, erat nulla fermentum diam, at nonummy quam  ante ac quam. Maecenas urna purus, fermentum id, molestie in, commodo  porttitor, felis. Nam blandit quam ut lacus. Quisque ornare risus quis  ligula. Phasellus tristique purus a augue condimentum adipiscing. Aenean  sagittis. Etiam leo pede, rhoncus venenatis, tristique in, vulputate at,  odio. Donec et ipsum et sapien vehicula nonummy. Suspendisse potenti. </p>
-    <h2>H2 level heading </h2>
-    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent aliquam,  justo convallis luctus rutrum, erat nulla fermentum diam, at nonummy quam  ante ac quam. Maecenas urna purus, fermentum id, molestie in, commodo  porttitor, felis. Nam blandit quam ut lacus. Quisque ornare risus quis  ligula. Phasellus tristique purus a augue condimentum adipiscing. Aenean  sagittis. Etiam leo pede, rhoncus venenatis, tristique in, vulputate at, odio.</p>
-	<!-- end #mainContent --></div>
+    <h1>Ntu Computer Society...</h1>
+    <p>Welcome to the ntu computer society main website. We are a society that aims to make a network of students. Providing them with social activites and much much more. We are based in clifton at nottingham trent. </p>
+    <h2>What we offer</h2>
+    <p>We offer the complete package. This means social,revision and programming events. We offer our offical members all this so we can enhance your student life at ntu.</p>
+    <p style="text-align:center"><img src="http://www.sxc.hu/pic/m/a/am/ambrozjo/1362248_businessman_with_the_notebook_3.jpg" alt="Businessman with the notebook 3" /></p>
+  <!-- end #mainContent --></div>
 	<!-- This clearing element should immediately follow the #mainContent div in order to force the #container div to contain all child floats --><br class="clearfloat" />
   <div id="footer">
-    <p style="text-align:center">NTU ComputerSociety <br />
-    An offical society of the NTSU</p>
+    <p style="font-family: Calibri; text-align:center">© NTU ComputerSociety, An offical society of the NTSU</p>
+   <p style="text-align:center"> <a href="www.trentstudents.org/comp"><img src="../Social media icons/Vector Social Media Icons/PNG/32px/aboutme.png" width="32" height="32" alt="NTSU LINK" /></a>   <a href="https://www.facebook.com/groups/NtuComputingSociety/"><img src="../Social media icons/Vector Social Media Icons/PNG/32px/facebook.png" width="32" height="32" alt="facebook" /></a><img src="../Social media icons/Vector Social Media Icons/PNG/32px/google-plus.png" width="32" height="32" alt="G+" /><img src="../Social media icons/Vector Social Media Icons/PNG/32px/paypal.png" width="32" height="32" alt="Donations" /><img src="../Social media icons/Vector Social Media Icons/PNG/32px/rss.png" width="32" height="32" alt="Rss" /><img src="../Social media icons/Vector Social Media Icons/PNG/32px/stackoverflow.png" width="32" height="32" alt="Stackoverflow" /><img src="../Social media icons/Vector Social Media Icons/PNG/32px/twitter-2.png" width="32" height="32" alt="Twiter" /></p>
+    
   <!-- end #footer --></div>
 <!-- end #container --></div>
 </body>

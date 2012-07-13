@@ -1,11 +1,12 @@
 @charset "utf-8";
 body  {
 	font: 100% Verdana, Arial, Helvetica, sans-serif;
-	background-image:url(../Main%20assets/compsocback.jpg);
+	background-image:url(../Main%20assets/grad2.jpg);
 	margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
 	padding: 0;
 	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
 	color: #000000;
+	background-color: #FFF;
 }
 .thrColLiqHdr #container { 
 	width: 80%;  /* this will create a container 80% of the browser width */
@@ -38,7 +39,9 @@ body  {
 .thrColLiqHdr #sidebar2 {
 	float: right; /* this element must precede in the source order any element you would like it be positioned next to */
 	width: 23%; /* since this element is floated, a width must be given */
-	background: #EBEBEB; /* the background color will be displayed for the length of the content in the column, but no further */
+	background:#39F;
+	border:#000:thick:groove;
+	 /* the background color will be displayed for the length of the content in the column, but no further */
 	padding: 15px 0; /* top and bottom padding create visual space within this div */
 }
 .thrColLiqHdr #sidebar1 p, .thrColLiqHdr #sidebar1 h3, .thrColLiqHdr #sidebar2 p, .thrColLiqHdr #sidebar2 h3 {
@@ -51,8 +54,10 @@ body  {
 2. to avoid float drop at a supported minimum 800 x 600 resolution, elements within the mainContent div should be 300px or smaller (this includes images).
 3. in the Internet Explorer Conditional Comment below, the zoom property is used to give the mainContent "hasLayout." This avoids several IE-specific bugs.
 */
-.thrColLiqHdr #mainContent { 
-	margin: 0 24% 0 23.5%; /* the right and left margins on this div element creates the two outer columns on the sides of the page. No matter how much content the sidebar divs contain, the column space will remain. You can remove this margin if you want the #mainContent div's text to fill the sidebar spaces when the content in each sidebar ends. */
+.thrColLiqHdr #mainContent {
+	/* the right and left margins on this div element creates the two outer columns on the sides of the page. No matter how much content the sidebar divs contain, the column space will remain. You can remove this margin if you want the #mainContent div's text to fill the sidebar spaces when the content in each sidebar ends. */
+margin:2px;
+	font-family: Calibri;
 }
 
 .thrColLiqHdr #footer { 
