@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+
+#Menu
+{
+	-webkit-border-radius: 10px;
+border-radius: 10px; 
+	background-image:url(images/grad2.jpg);
+	border:#000:thick;
+overflow: auto;
+min-width: 50px; /*suggest a mid-width & min-height*/
+min-height 50px; 
+}
+#Footer
+{
+	-webkit-border-radius: 10px;
+border-radius: 10px; 
+	background-image:url(images/grad2.jpg);
+	border:#000:thick;
+overflow: auto;
+
+}
+.MenuText
+{
+	position:absolute;
+	color:#FFF;
+	size:36px;
+	font-family:Arial;
+	font-size: 36px;
+	margin-top:0px;
+	text-align:inherit;
+	text-transform:inherit;
+	top:#px;
+left:#px;
+height:#px;
+width:#px;
+
+}
+#mainimage
+{
+	-webkit-box-shadow: inset 3px 3px 3px ;
+box-shadow: inset 3px 3px 3px ; 
+}
+.Text {
+	font-family: Calibri;
+	font-size: 14px;
+	font-weight: normal;
+	font-variant: small-caps;
+	color: #000;
+	text-align:center;
+	
+}
+#footersocialbar
+{
+	text-align:center;
+	display: block;
+    width: 6em
+}
+#imgfix
+{
+	margin-left: auto;
+	margin-right: auto;
+	margin-left: auto;
+	margin-right: auto
+}
