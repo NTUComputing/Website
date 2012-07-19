@@ -31,10 +31,11 @@ overflow: auto;
 	text-align:inherit;
 	text-transform:inherit;
 	top:#px;
-left:#px;
-height:#px;
-width:#px;
-
+	left:#px;
+	height:48px;
+	width:920px;
+	text-align:justify;
+	white-space: normal;
 }
 #mainimage
 {
@@ -43,11 +44,13 @@ box-shadow: inset 3px 3px 3px ;
 }
 .Text {
 	font-family: Calibri;
-	font-size: 14px;
-	font-weight: normal;
-	font-variant: small-caps;
+	font-size: 12px;
+	font-weight: 400;
+	font-variant: normal;
 	color: #000;
 	text-align:center;
+	font-style: oblique;
+	text-transform: capitalize;
 	
 }
 #footersocialbar
@@ -57,6 +60,13 @@ box-shadow: inset 3px 3px 3px ;
     width: 6em
 }
 #imgfix
+{
+	margin-left: auto;
+	margin-right: auto;
+	margin-left: auto;
+	margin-right: auto
+}
+.imgfix
 {
 	margin-left: auto;
 	margin-right: auto;
