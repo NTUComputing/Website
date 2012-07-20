@@ -3,8 +3,8 @@
 
 #Menu
 {
-	-webkit-border-radius: 10px;
-border-radius: 10px; 
+	
+
 	background-image:url(images/grad2.jpg);
 	border:#000:thick;
 overflow: auto;
@@ -22,20 +22,17 @@ overflow: auto;
 }
 .MenuText
 {
-	position:absolute;
 	color:#FFF;
-	size:36px;
+	top:0px;
 	font-family:Arial;
 	font-size: 36px;
 	margin-top:0px;
 	text-align:inherit;
 	text-transform:inherit;
-	top:#px;
 	left:#px;
-	height:48px;
-	width:920px;
 	text-align:justify;
 	white-space: normal;
+	position: static;
 }
 #mainimage
 {
@@ -64,12 +61,39 @@ box-shadow: inset 3px 3px 3px ;
 	margin-left: auto;
 	margin-right: auto;
 	margin-left: auto;
-	margin-right: auto
+	margin-right: auto;
+	text-align: center;
 }
 .imgfix
 {
 	margin-left: auto;
 	margin-right: auto;
 	margin-left: auto;
-	margin-right: auto
+	margin-right: auto;
+	height: auto;
+	width: auto;
+	right: auto;
+	bottom: auto;
+	text-align: center;
+}
+.textmain
+{
+	margin-left:6px;
+	font:Arial;
+	font-size:12px;
+	font-size-adjust:inherit;
+}
+.Headermain
+{
+	margin-left:6px;
+	font:Arial;
+	font-size:17px;
+	font-size-adjust:inherit;
+	font-weight:bold;
+}
+.centerimage
+{
+	 display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
