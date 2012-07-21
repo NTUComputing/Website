@@ -24,15 +24,14 @@ overflow: auto;
 {
 	color:#FFF;
 	top:0px;
-	font-family:Arial;
-	font-size: 36px;
+	font-family:"Arial Black";
+	font-size: 60px;
 	margin-top:0px;
 	text-align:inherit;
 	text-transform:inherit;
-	left:#px;
 	text-align:justify;
-	white-space: normal;
-	position: static;
+
+	position:inherit;
 }
 #mainimage
 {
@@ -40,9 +39,9 @@ overflow: auto;
 box-shadow: inset 3px 3px 3px ; 
 }
 .Text {
-	font-family: Calibri;
-	font-size: 12px;
-	font-weight: 400;
+	font-family:"Arial Black";
+	font-size: medium;
+	font-weight: 900;
 	font-variant: normal;
 	color: #000;
 	text-align:center;
@@ -79,14 +78,14 @@ box-shadow: inset 3px 3px 3px ;
 .textmain
 {
 	margin-left:6px;
-	font:Arial;
+	font-family:"Lucida Sans Unicode";
 	font-size:12px;
 	font-size-adjust:inherit;
 }
 .Headermain
 {
 	margin-left:6px;
-	font:Arial;
+	font-family:"Lucida Sans Unicode";
 	font-size:17px;
 	font-size-adjust:inherit;
 	font-weight:bold;
