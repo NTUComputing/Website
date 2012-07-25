@@ -1,0 +1,14 @@
+body {
+	background-color:#fbedcf;
+	min-width:960px;
+	font-family:Tahoma, Geneva, sans-serif;
+	color:#fff;
+	font-size:16px;
+	line-height:22px;
+	text-shadow:1px 1px 1px #362c30;
+}
+.container {
+	width:960px;
+	margin:0 auto;
+	overflow:visible;
+}

@@ -1,0 +1,75 @@
+<!-- 
+
+Author: Developed by Caleb Jacob
+
+Author Website: http://iamceege.com/
+
+Author Contact: caleb@iamceege.com
+
+Description: This is a pure CSS content slider developed to remove the shroud of mystery behind CSS3 animations and transitions.
+
+Version: 1.0
+
+Browser Support: WebKit and FireFox
+
+-----------------------------------------------
+
+Usage: You are free to use and abuse this code anyway you'd like for any project (personal or commercial). Please don't directly redistribute and sell this code in any way (if you do, then you don't get a cookie). However, if you're interested in buying or selling this code, feel free to contact me at: caleb@iamceege.com
+
+-----------------------------------------------
+
+IMPORTANT: If you are wanting to add or subtract to the current amount of slides (4), you will need to change all of the CSS keyframe animations in css/slider.css to reflect your changes. Unfortunately, this is one of the downfalls of stricltly using CSS.
+
+-----------------------------------------------
+
+If you do end up using this script or finding it helpful, I'd love to hear your thoughts and see what you've done with it! (caleb@iamceege.com)
+
+Thanks! And enjoy! :) 
+
+ -->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link href="css/reset.css" rel="stylesheet" type="text/css" />
+<link href="css/slider.css" rel="stylesheet" type="text/css" />
+<link href="css/main.css" rel="stylesheet" type="text/css" />
+<title>The Pure CSS 3 Slider</title>
+</head>
+<body>
+<div class="container">
+	<div id="slider">
+		<div id="mask">
+			<ul>
+				<li>
+					<a href="#" title="View my first image link"><img src="images/1.png" /></a>
+				</li>
+				<li>
+					<a href="#" title="View my second image link"><img src="images/2.png" /></a>
+					<span>
+						<h2>Image Caption</h2>
+						<p>Lorem ipsum dolor...</p>
+					</span>
+				</li>
+				<li>
+					<iframe src="http://en.wikipedia.org/wiki/Calvin_and_Hobbes" width="600" height="200" frameborder="0" scrolling="no"></iframe>
+					<span>
+						<h2>Iframe Caption</h2>
+					</span>
+				</li>
+				<li>			
+					<a href="#" title="View my third image link"><img src="images/3.png" /></a>
+				</li>
+			</ul>
+		</div>
+		<div id="progress">
+		</div>
+		<div id="overlay">
+		</div>
+		<div id="pause">
+		</div>
+	</div>
+</div>
+</body>
+</html>
